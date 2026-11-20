@@ -1,0 +1,33 @@
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets and generated runs
+**/processed/
+**/train_exp/images/
+**/train_exp/labels/
+**/train_exp/train/
+**/train_exp/valid/
+**/train_exp/test/
+**/runs/
+**/*.cache
+recognition/data/checkpoints/
+recognition/data/exports/
+recognition/data/board_test_v2_raw/
+recognition/data/rknn_dataset*.txt
+
+# Keep the supplied final artifacts; ignore new checkpoints and binaries.
+detection/weights/*
+!detection/weights/best.pt
+recognition/data/*.pth
+!recognition/data/model_single_input_v2.pth
+!recognition/data/model_batchnorm.pth
+recognition/data/*.onnx
+!recognition/data/plate_recognizer_single_input_v2.onnx
+recognition/data/*.rknn
+!recognition/data/plate_recognizer_single_input_v2_uint8_w8a8.rknn
+recognition/board/bin/*
+!recognition/board/bin/rknn_smoke_zero_copy_logical_output
+!recognition/board/bin/rknn_benchmark_run_only
