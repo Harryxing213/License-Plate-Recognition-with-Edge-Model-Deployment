@@ -1,0 +1,37 @@
+{
+  "detection": {
+    "checkpoint": "detection/weights/best.pt",
+    "original_run": "train8",
+    "validation_mAP50": 0.99391,
+    "validation_mAP50_95": 0.80232,
+    "dataset_images": {
+      "train": 347,
+      "valid": 111,
+      "test": 61
+    },
+    "test_label_files": 50
+  },
+  "recognition": {
+    "architecture": "CNN + residual horizontal TCN/Conv1D",
+    "parameters": 2035014,
+    "validation_token_accuracy_including_EOS": 0.993901598676957,
+    "validation_plate_accuracy_including_EOS": 0.9644432194046306,
+    "checkpoint_epoch": 40,
+    "dataset_images": {
+      "train": 15026,
+      "valid": 3628,
+      "test": 3643
+    }
+  },
+  "hardware_record": {
+    "platform": "RV1106",
+    "run_only_latency_ms": {
+      "average": 3.129,
+      "minimum": 3.119,
+      "maximum": 3.201
+    },
+    "sample_test_correct": 20,
+    "sample_test_total": 20,
+    "source": "Original final-package README; not rerun during preparation"
+  }
+}

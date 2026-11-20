@@ -1,0 +1,36 @@
+{
+  "python_syntax": "passed",
+  "recognition_samples": 20,
+  "recognition_correct": 20,
+  "onnx_check": "passed",
+  "pytorch_onnx_max_absolute_error": 1.52587890625e-05,
+  "pytorch_onnx_predictions_match": true,
+  "raw_samples": 20,
+  "raw_byte_matches": 20,
+  "yolo_inference": "passed",
+  "yolo_test_image": "00adf93a-2b6e-4940-a39e-9f9cd9d98207_jpg.rf.4cida1CzlKMmqYw2Wqhf.jpg",
+  "yolo_boxes": 1,
+  "checkpoint_validation": {
+    "epoch": 40,
+    "valid_acc": 0.993901598676957,
+    "valid_plate_acc": 0.9644432194046306
+  },
+  "versions": {
+    "torch": "2.15.0",
+    "torchvision": "0.29.2",
+    "opencv-python": "4.13.0.92",
+    "ultralytics": "8.4.215",
+    "onnx": "1.23.2",
+    "onnxruntime": "1.32.0",
+    "numpy": "2.3.5",
+    "tqdm": "4.70.1"
+  },
+  "c_syntax_check": "passed against original SDK header",
+  "onnx_reexport": "passed",
+  "training_smoke_test": "passed: 2 train + 2 validation images, 1 epoch, checkpoint and CSV saved outside project",
+  "evaluation_cli": "passed: original test split first 20, token and full-plate accuracy 1.0",
+  "predict_cli": "passed: original test image 0.jpg",
+  "dataset_split_check": "passed: 14/4/2 unique samples from 20 inputs; existing split protected",
+  "rknn_conversion_current_run": "not run: requires RKNN Toolkit2 Linux environment",
+  "rv1106_current_run": "not run: no device used"
+}
