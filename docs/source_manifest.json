@@ -1,0 +1,110 @@
+{
+  "detection/yolov8_pipeline.py": {
+    "source": "License Plate Recognition/yolov8_pipeline.py",
+    "sha256": "f2b35095aa2f5214c058fe884a5dd84edf77a60d952a5783fcd0d092b13b5fb8"
+  },
+  "detection/train_yolov8.py": {
+    "source": "License Plate Recognition/train_yolov8.py",
+    "sha256": "390777c6a70714af604238ed1f6e80083fec82acb0cafe06615f48397942419c"
+  },
+  "detection/detect.py": {
+    "source": "License Plate Recognition/detect.py",
+    "sha256": "5e5a2ad9728f52a7a117926d49922258440a45ccf450cff45d005af0f8f9e994"
+  },
+  "detection/dataset_assignment.py": {
+    "source": "License Plate Recognition/dataset_assignment.py",
+    "sha256": "05a625a7a4aeef39057c749da234de16ff072551a7b999de3cbefddee5466e2a"
+  },
+  "detection/train_exp/data.yaml": {
+    "source": "License Plate Recognition/train_exp/data.yaml",
+    "sha256": "4768dd72bb59b151cc65b0e1f8054e6504382b65f8a5b0c5f40dabe10c232a40"
+  },
+  "detection/weights/best.pt": {
+    "source": "License Plate Recognition/runs/detect/train8/weights/best.pt",
+    "sha256": "a1dd406d3909228702efd1d9983c1fbb5788bd9bbd25e60c734c177bf5beee22"
+  },
+  "recognition/model_single_input_v2.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/model_single_input_v2.py",
+    "sha256": "ce797554fac3d6577c99f92caa3436dd3d5de254917fe7af0f589439ae7f789d"
+  },
+  "recognition/model_batchnorm.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/model_batchnorm.py",
+    "sha256": "bb5739ed5796c9aec282d1e87e02d72cb9db7a6d4d2c3b9c77d032108be2f266"
+  },
+  "recognition/plate_dataset.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/plate_dataset.py",
+    "sha256": "c4d1a8d484dff29f032917413948e6790d5fac48712cc9918f929726c3af2b7e"
+  },
+  "recognition/training_single_input_v2.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/training_single_input_v2.py",
+    "sha256": "3aa69a61af71359c9a91ead002a86468c6c989240f489bb3eb238d85636dc74a"
+  },
+  "recognition/export_single_input_v2_onnx.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/export_single_input_v2_onnx.py",
+    "sha256": "3a166b97a02722d591cbac2a36c93def1a36394bbbceb92ee07e2180b75bbd92"
+  },
+  "recognition/prepare_rknn_dataset_single_input.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/prepare_rknn_dataset_single_input.py",
+    "sha256": "883da9e299e5328ceec112401340d2bb5504b38d6e73cce843144c51481ce2cd"
+  },
+  "recognition/prepare_board_test_raws.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/prepare_board_test_raws.py",
+    "sha256": "088f2d588da2af288bca196b0571a58bb68865c76dab89ee179900149afba4a9"
+  },
+  "recognition/convert_to_rknn.py": {
+    "source": "License Plate Identification/final_rv1106_plate_project/convert_batchnorm_to_rknn.py",
+    "sha256": "d0828d5f9d0e38631c2daf70e8033fe5bef753e61baa0968e5aba7987e614403"
+  },
+  "recognition/data/model_single_input_v2.pth": {
+    "source": "License Plate Identification/final_rv1106_plate_project/data/model_single_input_v2.pth",
+    "sha256": "1484168ea034b0f92c24b1cbf3d086ad6b226cbbe9d1fb0b9243a36bf94c1fd6"
+  },
+  "recognition/data/model_batchnorm.pth": {
+    "source": "License Plate Identification/final_rv1106_plate_project/data/model_batchnorm.pth",
+    "sha256": "bd6813870d72609f490b8c2e956aa2073d33c7a287363364720c26dcb684c710"
+  },
+  "recognition/data/plate_recognizer_single_input_v2.onnx": {
+    "source": "License Plate Identification/final_rv1106_plate_project/data/plate_recognizer_single_input_v2.onnx",
+    "sha256": "6e8705580f621ac121654b35f7aedb2530bbfac106dc96b3bce5e4e388732e01"
+  },
+  "recognition/data/plate_recognizer_single_input_v2_uint8_w8a8.rknn": {
+    "source": "License Plate Identification/final_rv1106_plate_project/data/plate_recognizer_single_input_v2_uint8_w8a8.rknn",
+    "sha256": "620ee2cb35f50ff72dafdf0225abde24d3abcd904f4127952aea297c487afd5c"
+  },
+  "recognition/board/rknn_smoke_zero_copy_logical_output.c": {
+    "source": "License Plate Identification/final_rv1106_plate_project/board/rknn_smoke_zero_copy_logical_output.c",
+    "sha256": "3f90d5a465a7f68b22301a15764c446e9cbaabcbf0de7855c7a5e5cc352b0168"
+  },
+  "recognition/board/bin/rknn_smoke_zero_copy_logical_output": {
+    "source": "License Plate Identification/final_rv1106_plate_project/board/rknn_smoke_zero_copy_logical_output",
+    "sha256": "99f67020184fc107932bd3ffff05d6c2c4a2ff9baddf93091256ebe446e2516d"
+  },
+  "recognition/board/rknn_benchmark_run_only.c": {
+    "source": "License Plate Identification/final_rv1106_plate_project/board/rknn_benchmark_run_only.c",
+    "sha256": "f2a3efdf6ac6c23110c3eeff327b8d3c8f39b5fa9a2b5f4d23838b65908e64fb"
+  },
+  "recognition/board/bin/rknn_benchmark_run_only": {
+    "source": "License Plate Identification/final_rv1106_plate_project/board/rknn_benchmark_run_only",
+    "sha256": "6958911ca8eb5481ad50923900313aba25a32c65348fb880d4bd72151dcdd6bd"
+  },
+  "assets/detection_results.png": {
+    "source": "License Plate Recognition/runs/detect/train8/results.png",
+    "sha256": "41fdcf31cb59c14ac0efda7db3547ed57bd8444ebebdb974793b762c284c9f01"
+  },
+  "assets/detection_confusion_matrix.png": {
+    "source": "License Plate Recognition/runs/detect/train8/confusion_matrix.png",
+    "sha256": "70aaadfcc6ec5552eeca30fe22db9a295a0e56339913de107c5a9535643d1051"
+  },
+  "assets/detection_confusion_matrix_normalized.png": {
+    "source": "License Plate Recognition/runs/detect/train8/confusion_matrix_normalized.png",
+    "sha256": "da5b00c1a8ba1c4318f4097310fc0beae862f9a47c1a8b1e6a84db64bcb7c194"
+  },
+  "metrics/detection_train8.csv": {
+    "source": "License Plate Recognition/runs/detect/train8/results.csv",
+    "sha256": "a9d41cd28fa163d103940f7600cad048b05dd85d58d6376a0fbf9e4bc3e3d6e3"
+  },
+  "metrics/detection_train8_args.yaml": {
+    "source": "License Plate Recognition/runs/detect/train8/args.yaml",
+    "sha256": "fa55598996cc62818b60573818e00bf6ebbe3fd42c85517714065176e7eee9f7"
+  }
+}
